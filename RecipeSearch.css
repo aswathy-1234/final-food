@@ -1,0 +1,134 @@
+.recipe-search-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-button, .back-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.back-to-start-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.search-button:hover, .back-button:hover, .back-to-start-button:hover {
+  background-color: #3e8e41;
+}
+
+.error-message {
+  color: red;
+}
+
+.recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.recipe-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recipe-details {
+  margin-top: 20px;
+}
+
+.back-button {
+  margin-top: 20px;
+}
+
+.recipe-details ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.recipe-details li {
+  margin-bottom: 10px;
+}
+
+.recipe-details .recipe-image {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.ingredients-box {
+  background-color: #f7f7f7;;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.ingredients-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredients-box li {
+  margin-bottom: 10px;
+}
+
+.instructions-box {
+  background-color: #f7f7f7;;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.recipe-search-container {
+  background-color: #f7f7f7; /* grey solid color */
+  background-image: none; /* remove the image */
+  background-size: initial; /* reset background size */
+  background-position: initial; /* reset background position */
+  height: 50vh;
+  width: 100vw;
+  text-align: center;
+  padding: 20px;
+}

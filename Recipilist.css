@@ -1,0 +1,33 @@
+.recipes-container {
+    background-color: #f7f7f7; /* grey solid color */
+    background-image: none; /* remove the image */
+    background-size: initial; /* reset background size */
+    background-position: initial; /* reset background position */
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.recipe-card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+ border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
